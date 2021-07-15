@@ -1,0 +1,18 @@
+Kiwicollection - Symfony/Vuejs app
+
+**Install & Configure**
+- installed symfony CLI & yarn on pc
+- composer install symfony 5.3.3 web application (I want an all-in-one solution to make this quicker)
+- install encore (webpack implementation)
+- now can enable vuejs in webpack config (csp-compliant build)
+- configure local MySQL server
+- needed to install annotations (using PHP 7.3 on my PC)
+- able to get to hello world
+- update README
+- push to git repo
+
+**Required Features**
+- return end point with customer data
+- enable frontend sort, filter, searching
+
+**Unit Tests?**
