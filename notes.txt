@@ -13,6 +13,11 @@ Kiwicollection - Symfony/Vuejs app
 
 **Required Features**
 - return end point with customer data
+  - HomeController.php has a route defined using annotation
+  - route gets data from the MySQL db
+  - data returned as JSON to the twig / vue front-end
 - enable frontend sort, filter, searching
+  - all of the data is returned in the initial payload which make data manipulation simple
 
 **Unit Tests?**
+**Docker?**

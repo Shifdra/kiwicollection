@@ -12,5 +12,12 @@ import './styles/app.css';
 import './bootstrap';
 
 // enable vuejs
-import Vue from 'vue'
-new Vue().$mount('#app')
+import Vue from "vue";
+
+// entry point for the application
+import App from "./components/App";
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});

@@ -10,19 +10,24 @@
 
 ## Project setup
 
-###Composer
+### Connect MySQL in .env
+```
+DATABASE_URL="mysql://root:@127.0.0.1:3306/new_schema?serverVersion=8.0.20"
+```
+
+### Composer
 ```
 composer install
 ```
 
-###Yarn
+### Yarn
 ```
 yarn install
 ```
 
-### Compiles front-end for development
+### Compile front-end for development
 ```
-yarn encore dev --watch
+yarn encore dev
 ```
 
 ### Run the local server
