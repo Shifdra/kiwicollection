@@ -25,6 +25,11 @@ composer install
 yarn install
 ```
 
+### Migrate Database
+```
+php bin/console doctrine:migrations:migrate
+```
+
 ### Compile front-end for development
 ```
 yarn encore dev
