@@ -1,12 +1,12 @@
 <template>
-  <div>Test</div>
+  <div>sdvgsdvsdv</div>
 </template>
 
 <script>
 export default {
   name: "app",
-  mounted() {
-    alert("hello world");
+  props: {
+    data: Array,
   }
 }
 </script>
